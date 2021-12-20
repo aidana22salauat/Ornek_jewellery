@@ -217,5 +217,91 @@ label{
     #toggle:checked + .header{
         display: none;
     }
+
+    #img1{
+        width:220px;
+        height: 270px;
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 50px;
+        border: #d5cec2 3px solid;
+    }
+    #img2{
+        height: 130px;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: 50px;
+        border: #d5cec2 3px solid;
+    }
+    #img3{
+        height: 125px;
+        width:185px;
+        position: absolute;
+        margin-left: 330px;
+        margin-top: 195px;
+        border: #d5cec2 3px solid;
+    }
+
+    #img0{
+        display: none;
+    }
+    #img00{
+        display: none;
+    }   
+    #img000{
+        display: none;
+    }
+    #img0000{
+        display: none;
+    }
+    
+    #square {
+        height: 200px;
+        width: 400px;
+        margin-left: 115px;
+        margin-top: 420px;
+        position: absolute;
+        background: #e9e4dd ;
+        
+    }
+    #square2 {
+        height: 200px;
+        width: 400px;
+        margin-left: 65px;
+        margin-top: 370px;
+        position: absolute;
+        background: rgb(209, 209, 199);
+    }
+    .main h1{
+        position: absolute;
+        margin-left: 75px;
+        margin-top: 380px;
+        font-weight: normal;
+        font-family:'Abel', sans-serif;
+        font-size: 15px;
+    }
+    .main h2{
+        position: absolute;
+        margin-left: 75px;
+        margin-top: 415px;
+        font-weight: normal;
+        font-family:'Abel', sans-serif;
+        font-size: 17px;
+
+    }
+    
+
+
     
 }
+
+
+
+
+
+
+
+
+
+
+

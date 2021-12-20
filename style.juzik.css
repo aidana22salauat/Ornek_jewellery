@@ -1,0 +1,516 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#d5cec2 ;
+    padding: 20px;
+    padding-left: 800px;
+    font-size: 25px;
+    color: black;
+    font-family:  'Abel', sans-serif;  
+}
+.header a:hover {
+    text-decoration: none; 
+    color: grey;   
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #d5cec2;
+    color: black;
+    padding: 0px;
+    font-size: 25px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+#main, #catalog, #info,  #contacs{
+    cursor: pointer;
+}
+
+#img1{
+    height: 400px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: #d5cec2 3px solid;
+}
+#img0{
+    position: absolute;
+    margin-left: 700px;
+    width: 120px;
+}
+#img00{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 170px;
+    width: 120px;
+}
+#img000{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 340px;
+    width: 120px;
+}
+#img0000{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 510px;
+    width: 120px;
+}
+#img2{
+    height: 170px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 120px;
+    border: #d5cec2 3px solid;
+}
+#img3{
+    height: 180px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 305px;
+    border: #d5cec2 3px solid;
+}
+/* JUZIK */
+.juzik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 168, 168);
+  }
+  .juzik .zagolovok p{
+      position: absolute;
+      margin-top: -475px;
+      margin-left: 540px;
+      font-size: 50px;
+  }
+  
+  
+  .container{
+      position: relative;
+      width: 1100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 150px;
+  }
+  .container .card1{
+      position: relative;
+      max-width: 300px;
+      height: 250px; 
+      background: #fff;
+      margin: 30px 10px; 
+      margin-left: -70px;
+      margin-top: 150px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: 0.3s ease-in-out;
+  }
+  
+  .container .card1:hover{
+      height: 360px;  
+  }
+  
+  .container .card1 .imgBx1{
+      position: relative;
+      width: 260px;
+      height: 260px;
+      top:-60px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      
+  }
+  .container .card1 .imgBx1 img{
+      max-width: 100%;
+      border-radius: 4px;
+  
+  }
+  .container .card1 .content1{
+      position: relative;
+      margin-top: -70px;
+      padding: 10px 15px;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+  }
+  .container .card1:hover .content1{
+      visibility: visible;
+      opacity: 1;
+  }
+  
+  
+  .container .card2{
+      position: relative;
+      max-width: 300px;
+      height: 250px; 
+      background: #fff;
+      margin: 30px 10px; 
+      margin-top: 150px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: 0.3s ease-in-out;
+  }
+  
+  .container .card2:hover{
+      height: 360px;  
+  }
+  
+  .container .card2 .imgBx2{
+      position: relative;
+      width: 260px;
+      height: 260px;
+      top:-60px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      
+  }
+  .container .card2 .imgBx2 img{
+      max-width: 100%;
+      border-radius: 4px;
+  
+  }
+  .container .card2 .content2{
+      position: relative;
+      margin-top: -70px;
+      padding: 10px 15px;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+  }
+  .container .card2:hover .content2{
+      visibility: visible;
+      opacity: 1;
+  }
+  
+  
+  .container .card3{
+      position: relative;
+      max-width: 300px;
+      height: 250px; 
+      background: #fff;
+      margin: 30px 10px; 
+      margin-top: 150px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: 0.3s ease-in-out;
+  }
+  
+  .container .card3:hover{
+      height: 360px;  
+  }
+  
+  .container .card3 .imgBx3{
+      position: relative;
+      width: 260px;
+      height: 260px;
+      top:-60px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      
+  }
+  .container .card3 .imgBx3 img{
+      max-width: 100%;
+      border-radius: 4px;
+  
+  }
+  .container .card3 .content3{
+      position: relative;
+      margin-top: -70px;
+      padding: 10px 15px;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+  }
+  .container .card3:hover .content3{
+      visibility: visible;
+      opacity: 1;
+  }
+  
+  
+  .container .card4{
+      position: relative;
+      max-width: 300px;
+      height: 250px; 
+      background: #fff;
+      margin: 30px 10px; 
+      margin-top:100px;
+      margin-left: 20px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: 0.3s ease-in-out;
+  }
+  
+  .container .card4:hover{
+      height: 360px;  
+  }
+  
+  .container .card4 .imgBx4{
+      position: relative;
+      width: 260px;
+      height: 260px;
+      top:-60px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      
+  }
+  .container .card4 .imgBx4 img{
+      max-width: 100%;
+      border-radius: 4px;
+  
+  }
+  .container .card4 .content4{
+      position: relative;
+      margin-top: -70px;
+      padding: 10px 15px;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+  }
+  .container .card4:hover .content4{
+      visibility: visible;
+      opacity: 1;
+  }
+  
+  
+  .container .card5{
+      position: relative;
+      max-width: 300px;
+      height: 250px; 
+      background: #fff;
+      margin: 30px 10px; 
+      margin-top:100px;
+      margin-left: 92px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: 0.3s ease-in-out;
+  }
+  
+  .container .card5:hover{
+      height: 360px;  
+  }
+  
+  .container .card5 .imgBx5{
+      position: relative;
+      width: 260px;
+      height: 260px;
+      top:-60px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      
+  }
+  .container .card5 .imgBx5 img{
+      max-width: 100%;
+      border-radius: 4px;
+  
+  }
+  .container .card5 .content5{
+      position: relative;
+      margin-top: -70px;
+      padding: 10px 15px;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+  }
+  .container .card5:hover .content5{
+      visibility: visible;
+      opacity: 1;
+  }
+  
+  
+  .container .card6{
+      position: relative;
+      max-width: 300px;
+      height: 250px; 
+      background: #fff;
+      margin: 30px 10px; 
+      margin-top:100px;
+      margin-left: 98px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: 0.3s ease-in-out;
+  }
+  
+  .container .card6:hover{
+      height: 360px;  
+  }
+  
+  .container .card6 .imgBx6{
+      position: relative;
+      width: 260px;
+      height: 260px;
+      top:-60px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      
+  }
+  .container .card6 .imgBx6 img{
+      max-width: 100%;
+      border-radius: 4px;
+  
+  }
+  .container .card6 .content6{
+      position: relative;
+      margin-top: -70px;
+      padding: 10px 15px;
+      text-align: center;
+      color: #111;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+  }
+  .container .card6:hover .content6{
+      visibility: visible;
+      opacity: 1;
+  }
+  .container p{
+      font-size: 20px;
+  }
+  
+
+  
+.nav{
+    float: left;
+    display: none;
+    
+}
+label{
+    margin: 8px 0 0 20px ;
+    font-size: 25px;
+    display: none;
+    
+}
+#toggle{
+    display: none;
+}
+
+@media (max-width: 1000px){
+    body{
+        background-color:rgba(198,172,162,255);
+        
+    }
+    
+    .items{
+        margin: 0 auto;
+    }
+    .nav{
+        display: inline-block;
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        padding-top: 6px;
+        padding-left: 100px;
+        font-size: 25px;
+    }
+    .header div{
+        border-top: 1px solid white;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+    #toggle:checked + .header{
+        display: none;
+    }
+    .juzik .zagolovok {
+        margin-top: -1570px;
+        margin-left: -362px;   
+    }
+    .juzik .zagolovok p{
+        font-size: 30px;
+    }
+    .juzik .container {
+        display: block;
+        margin-top: -30px;
+        margin-left: 474px;
+    }
+    .juzik .container .card1{
+        margin-left: 10px;
+    }
+    .juzik .container .card4{
+        margin-top: 150px;
+        margin-left: 9px;
+    }
+    .juzik .container .card5{
+        margin-top: 153px;
+        margin-left: 13px;
+    }
+    .juzik .container .card6{
+        margin-top: 153px;
+        margin-left: 13px;
+    }
+
+    
+
+    
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="style.info.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@500&family=Mukta:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class = "nav">
+    <label for = "toggle">&#9776;</label>
+
+</div>
+<input type="checkbox" name="" id="toggle">
+
+    <div class="header">
+    <div id="main" onmouseover ="big(this)" onmouseout="small(this)"><a  href="index.html" target="_blank">Main</a></div>
+    <div class="dropdown" >
+        <button class="dropbtn" onmouseover ="big(this)" onmouseout="small(this)">Catalog</button>
+        <div class="dropdown-content">
+          <a href="syrga.html" target="_blank">Syrga</a>
+          <a href="shekelik.html" target="_blank">Shekelık</a>
+          <a href="alka.html" target="_blank">Bılezık</a>
+          <a href="juzik.html" target="_blank">Jüzık</a>
+        </div>
+      </div>
+    
+    <div id="info"  onmouseover ="big(this)" onmouseout="small(this)"><a  href="info.html" target="_blank">Info</a></div>
+    <div id="contacts"  onmouseover ="big(this)" onmouseout="small(this)"><a  href="contacts.html" target="_blank">Contacts</a></div>
+    
+    </div>
+    <div class="info1">
+      <div id="map" style="width:45%; height:400px"></div>
+      <div id="map1" style="width:45%; height:400px"></div>
+      <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+      
+    </div>
+
+    <div class="info">
+
+
+
+<p>Delivery terms:</p>
+<button class="collapsible">Almaty, Nur-Sultan</button>
+<div class="content">
+  <p><li>1. Express delivery - 2000 ₸;</li>
+      <li>2. Pickup from ORNEK stores - free;</li>
+      <li>3. Orders placed before 19:00 will be delivered on the same day. Orders placed after 19:00 will be delivered the next day;</li>
+
+    </p>
+</div>
+<button class="collapsible">Kazakhstan</button>
+<div class="content">
+  <p>
+    <li>1. Express delivery - 2000 ₸(1-3 days);</li>
+      <li>2. Order by EMS Kazpost - 700 ₸(7-14 days);</li>
+      <li>3. Make sure that the order is intact and complete in the presence of the courier;</li>
+  </p>
+</div>
+<button class="collapsible">CIS countries</button>
+<div class="content">
+  <p>
+    <li>1. Order by PonyExpress - 2800 ₸(5-7 days);</li>
+    <li>2. Make sure that the order is intact and complete in the presence of the courier;</li>
+  </p>
+</div>
+    </div>
+
+
+
+
+
+
+
+
+    <script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

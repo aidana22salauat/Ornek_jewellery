@@ -1,0 +1,488 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#d5cec2 ;
+    padding: 20px;
+    padding-left: 800px;
+    font-size: 25px;
+    color: black;
+    font-family:  'Abel', sans-serif;  
+}
+.header a:hover {
+    text-decoration: none; 
+    color: grey;   
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #d5cec2;
+    color: black;
+    padding: 0px;
+    font-size: 25px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+#main, #catalog, #info,  #contacs{
+    cursor: pointer;
+}
+
+
+/*syrga*/
+.syrga{
+    background-color: #5e606f;
+    height: 850px;  
+}
+.syrga p{
+    margin-left: 500px;
+    margin-top: 0px;
+    font-family:'Abel', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    color: white;
+    font-size: 40px;   
+}
+.syrga h1{
+    margin-left: 800px;
+    margin-top: 0px;
+    font-family:'Abel', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    color: #5f706c;
+    font-size: 30px;
+    position: absolute;
+}
+
+/*syrga photos10  */
+.image10{
+    position: absolute;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border:rgb(226, 226, 217) 3px solid;
+}
+.image_overlay10{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay10:hover{
+    opacity: 1;
+}
+  
+.image_title10{
+    font-size: 2em;
+    font-weight: bold;
+}
+#img10{
+    display: block;
+    width: 100%;
+}
+
+/*syrga photos11  */
+
+.image11{
+    position: absolute;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border:rgb(226, 226, 217) 3px solid;
+}
+#img11{
+    display: block;
+    width: 100%;
+}
+.image_overlay11{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay11:hover{
+    opacity: 1;
+}
+  
+.image_title11{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*syrga photos12  */
+.image12{
+    position: absolute;
+    width: 300px;
+    margin-left: 750px;
+    margin-top: 100px;
+    border:#5e606f 3px solid;
+}
+#img12{
+    display: block;
+    width: 100%;
+}
+.image_overlay12{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay12:hover{
+    opacity: 1;
+}
+  
+.image_title12{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*syrga photos13  */
+.image13{
+    position: absolute;
+    width: 300px;
+    margin-left: 1100px;
+    margin-top: 100px;
+    border:#5e606f 3px solid;
+}
+#img13{
+    display: block;
+    width: 100%;
+    
+}
+.image_overlay13{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay13:hover{
+    opacity: 1;
+}
+  
+.image_title13{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*syrga photos14  */
+.image14{
+    position: absolute;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 450px;
+    border:rgb(226, 226, 217) 3px solid;
+}
+#img14{
+    display: block;
+    width: 100%;
+}
+.image_overlay14{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay14:hover{
+    opacity: 1;
+}
+  
+.image_title14{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*syrga photos15  */
+.image15{
+    position: absolute;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 450px;
+    border:rgb(226, 226, 217) 3px solid;
+}
+#img15{
+    display: block;
+    width: 100%;
+}
+.image_overlay15{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay15:hover{
+    opacity: 1;
+}
+  
+.image_title15{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*syrga photos16  */
+.image16{
+    position: absolute;
+    width: 300px;
+    margin-left: 750px;
+    margin-top: 450px;
+    border:#5e606f 3px solid;
+}
+#img16{
+    display: block;
+    width: 100%;
+
+}
+.image_overlay16{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay16:hover{
+    opacity: 1;
+}
+  
+.image_title16{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/*syrga photos17  */
+.image17{
+    position: absolute;
+    width: 300px;
+    margin-left: 1100px;
+    margin-top: 450px;
+    border:#5e606f 3px solid;
+}
+#img17{
+    display: block;
+    width: 100%;
+}
+.image_overlay17{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Garamond;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image_overlay17:hover{
+    opacity: 1;
+}
+  
+.image_title17{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+#square3 {
+    height: 850px; 
+    margin-left: 730px;
+    margin-top: -67px;
+    position: static;
+    background: beige
+}
+
+.nav{
+    float: left;
+    display: none;
+    
+}
+label{
+    margin: 8px 0 0 20px ;
+    font-size: 25px;
+    display: none;
+    
+}
+#toggle{
+    display: none;
+}
+
+@media (max-width: 1000px){
+    body{
+        
+        background-color: #5e606f;
+    }
+    
+    .items{
+        margin: 0 auto;
+    }
+    .nav{
+        display: inline-block;
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        padding-top: 6px;
+        padding-left: 100px;
+        font-size: 25px;
+    }
+    .header div{
+        border-top: 1px solid white;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+    #toggle:checked + .header{
+        display: none;
+    }
+    .contentsyrga{
+        background-color: #5e606f;
+    }
+
+    .syrga p{
+        margin-left: 215px;  
+    }
+    .syrga h1{
+        margin-left: 11px;
+        color: white;
+        text-align: center;
+    }
+    .syrga .image10{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-left: 55px;
+    }
+    .syrga .image11{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-left: 280px;
+    }
+    .syrga .image12{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-top: 350px;
+        margin-left: 55px;
+    }
+    .syrga .image13{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-top: 350px;
+        margin-left: 280px;
+    }
+    .syrga .image14{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-top: 600px;
+        margin-left: 55px;
+    }
+    .syrga .image15{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-top: 600px;
+        margin-left: 280px;
+    }
+    .syrga .image16{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-top: 850px;
+        margin-left: 55px;
+    }
+    .syrga .image17{
+        width:200px;
+        border:rgb(226, 226, 217) 3px solid;
+        margin-top: 850px;
+        margin-left: 280px;
+    }
+    #square3 {
+        height: 400px; 
+        margin-left: 0px;
+        margin-top: 700px;
+        position: static;
+        background-color: #5e606f;
+    }
+}

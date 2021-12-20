@@ -1,0 +1,128 @@
+body{
+    margin:  0 ;
+    padding: 0;
+}
+/* header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#d5cec2 ;
+    padding: 20px;
+    padding-left: 800px;
+    font-size: 25px;
+    color: black;
+    font-family:  'Abel', sans-serif;  
+}
+.header a:hover {
+    text-decoration: none; 
+    color: grey;   
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #d5cec2;
+    color: black;
+    padding: 0px;
+    font-size: 25px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+#main, #catalog, #info,  #contacs{
+    cursor: pointer;
+}
+
+
+.contacts h3{
+    margin-top: 0px;
+    background-color: rgb(169, 193, 214);
+    text-align: center;
+    height: 180px;
+    padding-top: 60px;
+    font-size: 50px;
+    font-family:  'Abel', sans-serif; 
+}
+.price{
+    margin-top: 80px;
+    width: 1200px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+.price h2{
+    text-align: center;
+    font-family:  'Abel', sans-serif; 
+}
+
+.nav{
+    float: left;
+    display: none;
+    
+}
+label{
+    margin: 8px 0 0 20px ;
+    font-size: 25px;
+    display: none;
+    
+}
+#toggle{
+    display: none;
+}
+
+@media (max-width: 1000px){
+    body{
+        background-color:rgba(198,172,162,255);
+        
+    }
+    
+    .items{
+        margin: 0 auto;
+    }
+    .nav{
+        display: inline-block;
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        padding-top: 6px;
+        padding-left: 100px;
+        font-size: 25px;
+    }
+    .header div{
+        border-top: 1px solid white;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+    #toggle:checked + .header{
+        display: none;
+    }
+    .price{
+        width:200px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .price h2{
+       width:200px;
+       margin-left: 90px;
+    }
+    
+}
