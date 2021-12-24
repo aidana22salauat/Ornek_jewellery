@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#d5cec2 ;
+    padding: 20px;
+    padding-left: 800px;
+    font-size: 25px;
+    color: black;
+    font-family:  'Abel', sans-serif;  
+}
+.header a:hover {
+    text-decoration: none; 
+    color: grey;   
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #d5cec2;
+    color: black;
+    padding: 0px;
+    font-size: 25px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+#main, #catalog, #info,  #contacs{
+    cursor: pointer;
+}
+
+/*shekelik */
+.shekelik{
+    background-color: #4c5050;
+    height: 400px;
+}
+#photo18{
+    position: absolute;
+    width:300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 1150px;
+    border: white dashed 2px;
+}
+.ph1 img{
+    position: absolute;
+    width: 80px;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+.ph11 img{
+    position: absolute;
+    width: 80px;
+    margin-top: 150px;
+    margin-left:990px;
+}
+.ph2 img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: white dashed 2px;
+}
+.ph3 img{
+   
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 620px;
+    border: white dashed 2px;
+}
+.shekelik2{
+    height: 250px;
+    background-color: #948e83;
+}
+.shekelik2 h1{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-family:  'Abel', sans-serif;
+}
+.shekelik2 h2{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-family:  'Abel', sans-serif;
+}
+.shekelik2 p{
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: center;
+    font-family:  'Abel', sans-serif;
+    font-size: 25px;
+    color: rgb(59, 59, 59);
+}
+.shekelik3{
+    height: 500px;
+    background-color: rgb(199, 184, 164);
+}
+.sh1 img{
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 50px;
+    position: absolute;
+    border: white 5px dashed;
+}
+.sh2 img{
+    width: 300px;
+    margin-left: 900px;
+    margin-top: 50px;
+    position: absolute;
+    border: white 5px dashed;
+}
+
+
+.nav{
+    float: left;
+    display: none;
+    
+}
+label{
+    margin: 8px 0 0 20px ;
+    font-size: 25px;
+    display: none;
+    
+}
+#toggle{
+    display: none;
+}
+
+@media (max-width: 1000px){
+    body{
+        background-color:rgba(198,172,162,255);
+        
+    }
+    
+    .items{
+        margin: 0 auto;
+    }
+    .nav{
+        display: inline-block;
+    }
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        padding-top: 6px;
+        padding-left: 100px;
+        font-size: 25px;
+    }
+    .header div{
+        border-top: 1px solid white;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+    #toggle:checked + .header{
+        display: none;
+    }
+
+
+    
+    
+    .shekelik{
+        height: 950px;
+    }
+    #photo18{
+        position: absolute;
+        width:250px;
+        height: 250px;
+        margin-top: 650px;
+        margin-left: 120px;
+        border: white dashed 2px;
+    }
+    .ph11 img{
+       display: none;
+    }
+    .ph2 img{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+        margin-left: 120px;
+        border: white dashed 2px;
+    }
+    .ph3 img{
+       
+        width: 250px;
+        height: 250px;
+        margin-top: 350px;
+        margin-left: 120px;
+        border: white dashed 2px;
+    }
+
+    .ph1 img{
+        display: none;
+    }
+    .shekelik2{
+        height: 400px;
+        background-color: #948e83;
+    }
+    .shekelik2 h1{
+        text-align: center;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-family:  'Abel', sans-serif;
+    }
+    .shekelik2 h2{
+        text-align: center;
+        margin-top: 0px;
+        color: rgb(255, 255, 255);
+        font-family:  'Abel', sans-serif;
+    }
+    .shekelik2 p{
+       margin-right: 50px;
+        margin-left: 5px;
+        font-family:  'Abel', sans-serif;
+        font-size: 25px;
+        color: rgb(59, 59, 59);
+    }
+    .shekelik3{
+        height: 900px;
+        background-color: rgb(199, 184, 164);
+    }
+    .sh1 img{
+        width: 250px;
+        margin-left: 120px;
+        margin-top: 50px;
+        position: absolute;
+        border: white 5px dashed;
+    }
+    .sh2 img{
+        width: 250px;
+        margin-left: 120px;
+        margin-top: 380px;
+        position: absolute;
+        border: white 5px dashed;
+    }
+    
+}
