@@ -86,7 +86,19 @@ label{
 #logo img{
     width: 70px;
 }
-
+.registration{
+    background-color: rgb(169, 193, 214);
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom:30px ;
+    font-family: 'Abel', sans-serif;
+}
+#submit{
+    width:100px;
+    height: 40px;
+    font-size: 20px;
+}
 @media (max-width: 1000px){
     body{
         background-color:rgba(198,172,162,255);
