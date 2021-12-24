@@ -4,6 +4,12 @@ function big(element){
     element.style.color = "grey";
 }
 
+
+
+
+
+
+
 function small(element){
     element.style.fontSize = "25px";
     element.style.color = "black";
@@ -32,7 +38,16 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+
+
+
+
+
 var map;
+
+
+
+
 
 DG.then(function () {
     map = DG.map('map', {
@@ -43,6 +58,9 @@ DG.then(function () {
     DG.marker([43.23, 76.89]).addTo(map).bindPopup('Розыбакиева 23Б');
 });
 var map;
+
+
+
 
 DG.then(function () {
     map = DG.map('map1', {
@@ -58,13 +76,22 @@ DG.then(function () {
 var slideIndex = 1;
 showSlides(slideIndex);
 
+
+
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+
+
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+
+
 
 function showSlides(n) {
   var i;
@@ -81,4 +108,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+
+
+
+
+
+
+
 
